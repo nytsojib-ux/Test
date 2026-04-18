@@ -370,7 +370,7 @@ def check_banned(func):
 # ─────────────────────────────────────────────
 
 def referral_link(user_id: int) -> str:
-    return f"[t.me](https://t.me/{BOT_USERNAME}?start=ref_{user_id})"
+    return f"https://t.me/{BOT_USERNAME}?start=ref_{user_id}"
 
 
 def fmt_name(row: sqlite3.Row) -> str:
